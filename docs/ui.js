@@ -12,10 +12,10 @@ class UI{
           <a href = '${user.html_url}' target ='_blank' class='btn btn-primary btn-block mb-3'>View Profile<a/>
         </div>
         <div class="col-md-9">
-          <span class='badge badge-primary mb-2'>Public repos:${user.public_repos}</span>
-          <span class='badge badge-secondary mb-2'>Public Gists:${user.public_repos}</span>
-          <span class='badge badge-success mb-2'>Followers:${user.followers}</span>
-          <span class='badge badge-info mb-2'>Following:${user.following}</span>
+          <span class='badge badge-primary '>Public repos:${user.public_repos}</span>
+          <span class='badge badge-secondary '>Public Gists:${user.public_repos}</span>
+          <span class='badge badge-success '>Followers:${user.followers}</span>
+          <span class='badge badge-info '>Following:${user.following}</span>
           <br><br>
           <ul class='list-group'>
             <li class='list-group-item '>Company: <strong>${user.company ? user.company : 'Not specified'} </strong></li>
